@@ -25,9 +25,9 @@ eeprom_init(ps_tui_t *tui)
     tui->eeprom._page_size = 0;
 
     switch (tui->eeprom.ic) {
-        case PS_TUI_EEPROM_24LC256:
-            tui->eeprom._page_size = 64;
-            break;
+  //      case PS_TUI_EEPROM_24LC256:
+    //        tui->eeprom._page_size = 64;
+      //      break;
 
         case PS_TUI_EEPROM_24LC512:
             tui->eeprom._page_size = 128;
